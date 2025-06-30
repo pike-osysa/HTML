@@ -1,10 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Bancy personal portfolio</title>
+    <style>
+        h2{
+            color:Maroon;
+        }
+        body{
+            background-color:#ccdfff;
+            font-family: Rockwell;
+            margin:0;
+            padding:0;
+        }
+        header{
+            background-color:deepskyblue;
+            text-align:center;
+            color:purple;
+            padding:20px;
+        }
+        main{
+            max-width:900px;
+            margin:50px;
+        }
+        section{
+            margin-bottom:30px;
+            padding:20px;
+            border-radius:10px;
+        }
+        article{
+
+            background-color:white;
+            border-left:solid purple 2px;
+            box-shadow:lightpink 1px 1px;
+            padding:15px;
+            margin-bottom:15px;
+            border-radius:5px;
+        }
+        #contact{
+            background-color:#19d0e4;
+            border-left:6px #800000;
+        }
+        #aboutme{
+            background-color:cornflowerblue;
+            border-left:6px solid #00ddff;
+        }
+        #skills{
+            background-color:lightpink;
+            border-left:6px solid #ee376a;
+        }
+        #projects{
+            background-color:lightpink;
+            border-left:6px #ee376a;
+        }
+
+        form{
+            background-color:white;
+            box-shadow:lightpink 1px 1px;
+            padding:20px;
+            border-radius:5px;
+        }
+        label{
+            display:block;
+            font-weight:bold;
+            input[type=text],input[type=email],textarea{
+                width:100%;
+                border:1px solid #00ddff;
+                border-radius:5px;
+            }
+        }
+        button{
+            background-color:lightgoldenrodyellow;
+            border:none;
+            border-radius:5px;
+        }
+        footer{
+            background-color:deepskyblue;
+            text-align:center;
+            color:purple;
+        }
+        nav ul{
+            list-style-type:none;
+        }
+        nav li{
+            display:inline;
+            margin:20px;
+        }
+        nav a{
+            text-decoration:none;
+            color:purple;
+        }
+
+    </style>
+    <header>
+        <h1>Bancy personal portfolio</h1>
+        <p>A developer...</p>
+        <nav>
+
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+
+        </nav>
+    </header>
+    <main>
+        <section id="aboutme">
+            <h2>ABOUT ME</h2>
+            <P>I am learning to become a fullstack software developer at Emobilis.I am also astudent in Kenyatta university.</P>
+        </section>
+        <section id="skills">
+            <h2>MY SKILLS</h2>
+            <uL>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Python</li>
+            </UL>
+        </section>
+        <section id="Projects">
+            <h2>My projects</h2>
+            <article>
+                <h2>Student Management system</h2>
+                <p>A Student Management System (SMS) is a software application used to manage student data and academic processes. It helps educational institutions handle tasks like enrollment, attendance, grades, schedules, and communication efficiently. The system streamlines administration, improves data accuracy, and enhances the overall learning experience.
+                </p>
+            </article>
+            <article>
+                <h2>Ecommerce project</h2>
+                <p>This eCommerce project involves the development of a responsive, user-friendly online store aimed at providing customers with a seamless shopping experience across devices. The platform will feature a dynamic product catalog, secure user authentication, a streamlined checkout process, and integration with popular payment gateways. Key goals include enhancing customer satisfaction, increasing online sales, and ensuring smooth integration with inventory and order management systems. </p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact me</h2>
+            <form id="form">
+                <labeL for="name">Fullname</labeL>
+                <input type="text" id="name" name="name" required placeholder="write your fullname"><br><br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label>Message</label>
+                <textarea id="message" required placeholder="write your message"></textarea><br><br>
+                          <button type="submit">Submit</button><br><br>
+            </form>
+        </section>
+
+        </section>
+    </main>
+    <Footer>
+        <h2>let's connect</h2>
+        <a href="#"><img src="git.jpg" width="50" height="50>"></a>
+        <a href="#"><img src="x.webp" width="50" height="50"</a>
+        <a href="#"><img src="linkedin.webp" width="50" height="50"</a>
+        <P>&copy 2025 Bancy portforlio</P>
+
+    </Footer>
+
 </head>
 <body>
-$END$
+
 </body>
 </html>

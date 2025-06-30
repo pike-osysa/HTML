@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
+<style>
+    body{
+        background-color: #00bbff;
+        text-align: center;
+    }
+    @media(max-width: 480px){
+        body{background-color: blueviolet}
+    }
+    header{
+        background-color: antiquewhite;
+        color:black;
+        padding:20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header h1{
+        font-size: 24px;
+    }
+    nav a{
+        color:White;
+        text-decoration: none;
+        margin-left:20px;
+    }
+    @media (max-width:600px) {
+header{
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #0e4eff;
+    color:white;
+}
+        nav a{
+            display:block;
+        }
+    }
+
+</style>
 <body>
-$END$
+<header>
+<h1>Responsive background</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+<h1>Responsive background</h1>
+
+<p>Food is an essential part of life that provides the energy and nutrients our bodies need to function. It comes in many forms and flavors, shaped by culture, tradition, and personal preference. Beyond nutrition, food also plays a social role, bringing people together during meals and celebrations. From homemade dishes to global cuisines, food reflects the diversity and creativity of human societies. Whether it's a simple snack or a gourmet meal, food has the power to comfort, nourish, and connect us.</p>
+
 </body>
 </html>

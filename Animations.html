@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #one{
+            /*animation-name: myanimation;*/
+           /* animation-duration: 3s;*/
+           /* animation-iteration-count: 4;*/
+            animation:myanimation 3s infinite;
+        }
+        #two{
+            animation:slidein 3s infinite;
+        }
+        #Three{
+            background-color: #19d0e4;
+            width: 200px;
+                height:200px;
+            animation-name: spin;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        #btn{
+            background-color:#19d0e4;
+            padding:10px 20px;
+            color:white;
+            border:none;
+            transition:background-color 0.4s ease, transform 0.4s ease;
+        }
+        #btn:hover{
+            background-color:lightgrey;
+            transform:scale(1.1);
+        }
+        @keyframes spin{
+            0%{transform:rotate(0deg);
+            background-color:green;}
+            50%{transform:rotate(180deg);
+            background-color: #ee376a}
+            100%{transform:rotate(360deg);
+            background-color: #00bbff}
+        }
+        @keyframes slidein {
+        0%{transform:translateX(0);
+        color:deepskyblue;}
+
+        }
+        @keyframes myanimation {
+        0%{color:deepskyblue;}
+            50%{color:red}
+            100%{color:yellowgreen}
+
+        }
+    </style>
 </head>
 <body>
-$END$
+<h1 id="two">WELCOME TO MY SITE</h1>
+<p id="one">Food is an essential part of life that provides the energy and nutrients our bodies need to function. It comes in many forms and flavors, shaped by culture, tradition, and personal preference. Beyond nutrition, food also plays a social role, bringing people together during meals and celebrations. From homemade dishes to global cuisines, food reflects the diversity and creativity of human societies. Whether it's a simple snack or a gourmet meal, food has the power to comfort, nourish, and connect us.</p>
+<div id="three">
+    <p>Hello</P>
+</div>
+<button id="btn">click me</button>
+
+
 </body>
 </html>
