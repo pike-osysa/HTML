@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+</head>
+<style>
+.about-section {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-image {
+  flex: 1;
+  position: relative;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+}
+
+.badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.2);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  color: #0d6efd;
+  margin-bottom: 20px;
+}
+
+.about-content .intro {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.contact-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #0d6efd;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+</style>
+
+<body>
+<!-- About Us Section -->
+<section class="py-5 bg-light" id="about">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Image Column -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <div class="position-relative">
+          <img src="https://via.placeholder.com/550x350"
+               class="img-fluid rounded-4 shadow-lg"
+               alt="Gadgets by Kim">
+          <span class="position-absolute top-0 start-0 translate-middle badge rounded-pill bg-primary px-3 py-2">
+            Trusted Tech
+          </span>
+        </div>
+      </div>
+
+      <!-- Content Column -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold display-6 mb-3 text-primary">About Gadgets by Kim</h2>
+        <p class="lead text-muted">
+          Gadgets by Kim delivers high-quality gadgets, phones, laptops, and accessories to tech lovers and everyday users alike. Our goal is to bring you affordable technology with trusted performance.
+        </p>
+        <p class="text-secondary">
+          From minor personal purchases to major event supplies, we serve everyone with care. Whether you're shopping for school, business, or a gift, we provide gadgets that meet your needs, supported by friendly and responsive customer service.
+        </p>
+        <p class="text-secondary">
+          We also offer bulk orders for institutions, events, and promotions. With us, you get great tech, honest pricing, and a reliable experience — every time.
+        </p>
+        <a href="#contact" class="btn btn-outline-primary btn-lg mt-3">
+          <i class="bi bi-chat-dots-fill me-2"></i> Get in Touch
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
